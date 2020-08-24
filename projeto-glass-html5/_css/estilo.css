@@ -12,6 +12,7 @@ body {
 }
 
 div#interface {
+    position: relative;
     width: 900px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
@@ -33,9 +34,9 @@ a:hover {
 }
 
 header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 40px;
+    position: relative;
+    left: 730px;
+    top: -50px;
 }
 
 header#cabecalho {
@@ -101,8 +102,8 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
-    left: 300px;
+    top: -10px;
+    left: 260px;
 }
 
 nav#menu li {
